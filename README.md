@@ -1,10 +1,5 @@
 # Water Pump Control System
 
-![GitHub repo size](https://img.shields.io/github/repo-size/Quan20021511/Water-Pump-Control-System)
-![GitHub stars](https://img.shields.io/github/stars/Quan20021511/Water-Pump-Control-System)
-![GitHub forks](https://img.shields.io/github/forks/Quan20021511/Water-Pump-Control-System)
-![GitHub issues](https://img.shields.io/github/issues-raw/Quan20021511/Water-Pump-Control-System)
-
 [Videp](https://github.com/Quan20021511/Sel-Navigating-Robot/assets/129273695/6cbadf00-3e89-4516-a5eb-1ae523ba4ff4)
 
 Welcome to the Remote Water Pump Control System GitHub repository! This project combines an Android application with an ESP8266-based microcontroller to remotely control a water pump based on water level measurements.
