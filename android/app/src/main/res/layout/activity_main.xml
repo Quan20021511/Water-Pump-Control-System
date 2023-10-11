@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#EADC84">
+
+    <TextView
+        android:id="@+id/trangThaiTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trạng thái: "
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#D61F1F"/>
+
+    <TextView
+        android:id="@+id/mucNuocTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mức nước: "
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#2CCFA2"/>
+    <TextView
+        android:id="@+id/temperature_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhiệt độ: "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#610C19"/>
+
+    <ImageView
+        android:id="@+id/imgData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/nen" />
+
+
+    <Button
+        android:id="@+id/onButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A5973B"
+        android:text="Bật"
+        android:textColor="#930723"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/offButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tắt"
+        android:textColor="#121111"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <RadioGroup
+        android:id="@+id/modeRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:checkedButton="@+id/tuDongRadioButton">
+
+        <RadioButton
+            android:id="@+id/tuDongRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tự động"
+            android:textStyle="bold"
+            android:textColor="#0428E3"
+            android:textSize="20sp"/>
+
+        <RadioButton
+            android:id="@+id/thuCongRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thủ công"
+            android:textStyle="bold"
+            android:textColor="#03776C"
+            android:textSize="20sp"/>
+    </RadioGroup>
+
+
+</LinearLayout>
